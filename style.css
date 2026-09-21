@@ -2146,5 +2146,56 @@ footer a:hover {
 
         transition-duration: 0.01ms !important;
     }
+   ```css
+/* ==========================================
+   CONTACT FORM MESSAGES
+   ========================================== */
+
+.form-message {
+    display: none;
+    margin-top: 20px;
+}
+
+.success-message,
+.error-message {
+    padding: 18px 20px;
+    border-radius: 10px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.success-message {
+    background: #ecfdf5;
+    border: 1px solid #10b981;
+    color: #065f46;
+}
+
+.error-message {
+    background: #fef2f2;
+    border: 1px solid #ef4444;
+    color: #991b1b;
+}
+
+.success-message i,
+.error-message i {
+    margin-right: 8px;
+}
+
+.success-message strong,
+.error-message strong {
+    font-size: 17px;
+}
+
+.success-message p,
+.error-message p {
+    margin: 6px 0 0;
+}
+
+#submitBtn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+```
+
 }
 ```
